@@ -14,4 +14,9 @@ function test()
     });
     return returnData;
 }
-console.log(select(test(), null, null, "<Manufacturing>"));
+var ttlData = test();
+$("#output").val(JSON.stringify(select(ttlData, $("#s").val() ? $("#s").val() : null, $("#p").val() ? $("#p").val() : null, $("#o").val() ? $("#o").val() : null), null, 4));
+
+$("input").on("change", function(){
+  $("#output").val(JSON.stringify(select(ttlData, $("#s").val() ? $("#s").val() : null, $("#p").val() ? $("#p").val() : null, $("#o").val() ? $("#o").val() : null), null, 4));
+});
