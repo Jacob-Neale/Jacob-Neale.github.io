@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.bubbles {
+  stroke-width: 2px;
+  stroke: white;
+}
+
+.bubbles:hover {
+  stroke: black;
+}
