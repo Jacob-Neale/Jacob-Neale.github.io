@@ -1,3 +1,29 @@
+function drawVisualisation1(dataFileURL) {
+    $.ajax({
+      type: "GET",
+      url: dataFileURL,
+      dataType: "text",
+      async: false,
+      success: function(response)
+      {
+        data = JSON.parse(response);
+      }
+    });
+    formattedData = handleVisualisation1Data(data);
+    drawPieChart(formattedData, data["<ds4>"][0]['o']);
+}
+
+
+function handleVisualisation1Data(data) {
+    var formatData = [];
+    for(const [key, value] of Object.entries(data)) {
+        if(data[key].length > 1) {
+            formatData.push({value: parseFloat(value[1]['o'].split("^^")[0]), name: formatName(value[0]['o'])});
+        }
+    }
+    return formatData;
+}
+
 function drawPieChart(data, title) {
     
     d3.select("#pie_chart").selectAll("*").remove();
@@ -12,7 +38,7 @@ function drawPieChart(data, title) {
       .attr('width', r_width)
       .attr('height', r_height)
       .append('g')
-      .attr('transform', `translate(${width/2}, ${(r_height)/2})`);
+      .attr('transform', `translate(${r_width/2}, ${(r_height)/2})`);
       
     var pie = d3.pie()
       .value(d => d.value);
@@ -37,7 +63,7 @@ function drawPieChart(data, title) {
         .duration(200)
       tooltip
         .style("opacity", 1)
-        .html(i.data.name + " : " + i.data.value)
+        .html(i.data.name + " : " + (i.data.value * 100.0).toPrecision(3) + "%")
         .style("left", (d3.pointer(d, svg)[0]+30) + "px")
         .style("top", (d3.pointer(d, svg)[1]+30) + "px")
     }
@@ -74,4 +100,17 @@ function drawPieChart(data, title) {
       .style("font-size", "16px")
       .text(title);
     
+}
+
+function formatName(name) {
+    n = name.substring(1, name.length-1);
+    newString = "";
+    for(var i = 0; i < n.length; i++) {
+        if(n[i] === n[i].toUpperCase()) {
+            newString += " " + n[i];
+        } else {
+            newString += n[i];    
+        }
+    }
+    return newString;
 }

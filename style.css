@@ -12,3 +12,12 @@
 .bubbles:hover {
   stroke: black;
 }
+
+circle {
+  fill: #fff;
+  stroke: #111;
+}
+
+circle.active{
+   fill: #f00;
+}
