@@ -1,0 +1,944 @@
+{
+	"<ds6_8_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.081^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_9_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.006^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_11_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.795^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_4_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.182^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_3_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.005^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_2_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.261^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_11_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.205^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_2_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.732^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_1_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_0_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.206^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_5_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_6_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.95^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_4_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.806^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_8_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.915^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_6_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.0451232^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_7_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.003^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_0_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.79^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_10_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.013^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_9_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.126^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_11_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_4_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.012^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_3_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.243^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_5_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.915^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_2_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.007^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_1_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.1^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_3_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.752^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_7_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.967^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_6_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.005^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_5_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.085^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_7_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.03^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_9_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.868^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_8_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.004^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6>": [
+		{
+			"p": "http://purl.org/dc/elements/1.1/title",
+			"o": "Question: What is the current trading status of your enterprise? "
+		}
+	],
+	"<ds6_0_1>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Haspermanentlyceasedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.004^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_1_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.9^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_10_0>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Continuingtotrade_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.938^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	],
+	"<ds6_10_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TP06to19April2020_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Hastemporarilyclosedortemporarilypausedtrading_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#observation",
+			"o": "<ds6>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.049^^http://www.w3.org/2001/XMLSchema#decimal"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+			"o": "http://purl.org/linked-data/cube#Observation"
+		}
+	]
+}

@@ -1,0 +1,548 @@
+{
+	"<ds2_3_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "1030.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_10_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "144.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_1_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "70.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_14_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<OtherServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "137.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_6_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "863.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_8_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<RealEstateActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "200.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_0_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.348^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_0_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<MiningAndQuarrying>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "28.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_8_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.345^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_2_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.275^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_2_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "201.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_4_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.316^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_11_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.387^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_6_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.344^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_10_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "2359.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_4_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "2999.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_12_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "294.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_5_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "282.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_9_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "318.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_7_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "733.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_2_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "284.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_0_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "1097.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_13_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "718.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_11_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "278.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_9_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "2023.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_7_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "1216.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_1_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.348^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_5_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.327^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_1_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "3155.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_3_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.343^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_10_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.49^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_9_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.418^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_7_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_3>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.362^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_5_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "1634.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_3_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "1034.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds0_11_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_1>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "760.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_4_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "516.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_6_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "418.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds2_8_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AllSizeBands_2>"
+		},
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "814.0^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	]
+}

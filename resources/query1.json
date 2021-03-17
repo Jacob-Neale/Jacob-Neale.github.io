@@ -1,0 +1,128 @@
+{
+	"<ds4>": [
+		{
+			"p": "http://purl.org/dc/elements/1.1/title",
+			"o": "Proportion of responses to the BICS survey broken down by industry"
+		}
+	],
+	"<ds4_1_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WaterSupplySewerageWasteManagementAndRemediationActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.348^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_0_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Manufacturing>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.348^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_5_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<TransportationAndStorage>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.327^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_8_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AdministrativeAndSupportServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.345^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_2_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Construction>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.275^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_3_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.343^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_10_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<HumanHealthAndSocialWorkActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.49^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_11_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ArtsEntertainmentAndRecreation>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.387^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_4_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<AccommodationAndFoodServiceActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.316^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_9_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<Education>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.418^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_7_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<ProfessionalScientificAndTechnicalActivities>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.362^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	],
+	"<ds4_6_2>": [
+		{
+			"p": "http://purl.org/linked-data/cube#dimension",
+			"o": "<InformationAndCommunication>"
+		},
+		{
+			"p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+			"o": "0.344^^http://www.w3.org/2001/XMLSchema#decimal"
+		}
+	]
+}
