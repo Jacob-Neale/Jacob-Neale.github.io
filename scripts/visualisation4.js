@@ -1,4 +1,4 @@
-function drawVisualisation3(dataFileURL) {
+function drawVisualisation4(dataFileURL) {
     $.ajax({
       type: "GET",
       url: dataFileURL,
@@ -9,24 +9,26 @@ function drawVisualisation3(dataFileURL) {
         data = JSON.parse(response);
       }
     });
-    formattedData = handleVisualisation3Data(data);
-    drawStackedBarChart(formattedData);
+    formattedData = handleVisualisation4Data(data);
+    drawBarChart(formattedData);
 }
 
 
-function handleVisualisation3Data(data) {
+function handleVisualisation4Data(data) {
     var formatData = [];
     industryToDPMap = {};
     for(const [key, value] of Object.entries(data)) {
-        for(var i = 0; i < value.length; i++) {
-            if(value[i]['o'] in industryToDPMap) {
-                list = industryToDPMap[value[i]['o']];
-                list.push(key);
-                industryToDPMap[value[i]['o']] = list;
-            } else {
-                list = [];
-                list.push(key);
-                industryToDPMap[value[i]['o']] = list;
+        if(key.endsWith("_6>")) {
+            for(var i = 0; i < value.length; i++) {
+                if(value[i]['o'] in industryToDPMap) {
+                    list = industryToDPMap[value[i]['o']];
+                    list.push(key);
+                    industryToDPMap[value[i]['o']] = list;
+                } else {
+                    list = [];
+                    list.push(key);
+                    industryToDPMap[value[i]['o']] = list;
+                }
             }
         }
     }
@@ -43,21 +45,21 @@ function handleVisualisation3Data(data) {
             list = data[value[i]];
             for(var j = 0; j < list.length; j++) {
                 if(list[j]['p'] === "http://www.w3.org/1999/02/22-rdf-syntax-ns#value") {
-                    vars.push(parseFloat(list[j]['o'].split("^^")[0]));
+                    vars.push(1.0 - parseFloat(list[j]['o'].split("^^")[0]));
                 }
             }            
         }
-        formatData.push({v1: vars[0], v2: vars[1], v3: vars[2], name: formatName(key)});
+        formatData.push({v1: vars[1].toPrecision(3), v2: vars[2].toPrecision(3), v3: vars[0].toPrecision(3), name: formatName(key)});
     }
     formatData.sort(compare);
     return formatData;
 }
 
-function drawStackedBarChart(data) {
+function drawBarChart(data) {
 
-    d3.select("#stacked_bar_chart").selectAll("*").remove();
+    d3.select("#bar_chart").selectAll("*").remove();
     
-    var titles = ["Continuing Trade", "Permanently Ceased Trading", "Temporarily Closed/Paused Trading"];
+    var titles = ["Intending to apply for Government Initiatives", "Applied for Government Initiatives", "Recieved Government Initiatives"];
 
     // set the dimensions and margins of the graph
     var for_text = 600;
@@ -66,7 +68,7 @@ function drawStackedBarChart(data) {
         height = 1000 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
-    var svg = d3.select("#stacked_bar_chart")
+    var svg = d3.select("#bar_chart")
       .append("svg")
         .attr("width", width + margin.left + margin.right + for_text)
         .attr("height", height + margin.top + margin.bottom)
@@ -89,10 +91,10 @@ function drawStackedBarChart(data) {
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Percentage");
-      
+    
     var x = d3.scaleBand()
-          .range([0, width])
-          .padding(0.1);
+      .range([0, width])
+      .padding(0.1);
     x.domain(data.map(function(d) { return d.name; }));
     
     // add the x Axis
@@ -106,8 +108,8 @@ function drawStackedBarChart(data) {
         .attr('font-size', 11)
         .attr("transform", "rotate(-65)" );
         
-        // Define tooltip     
-    var tooltip = d3.select("#stacked_bar_chart")
+            // Define tooltip     
+    var tooltip = d3.select("#bar_chart")
       .append("div")
         .style("opacity", 0)
         .attr("class", "tooltip")
@@ -142,7 +144,7 @@ function drawStackedBarChart(data) {
         .style("left", "0px")
         .style("top", "0px")
     }
-
+    
     // colors
     var colors = [
         "rgba(104, 129, 216, 0.95)",
@@ -155,40 +157,42 @@ function drawStackedBarChart(data) {
       .enter().append("rect")
         .attr("class", "bar")
         .attr("x", function(d) { return x(d.name); })
-        .attr("width", x.bandwidth())
+        .attr("width", x.bandwidth()/3)
         .attr("y", function(d) { return y(d.v1*100.0); })
         .attr("height", function(d) { return height - y(d.v1*100.0); })
         .style('fill', function (d, i) { return colors[0]; } )
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
-
+      
+    // append the rectangles for the bar chart
     svg.append("g").selectAll(".bar")
         .data(data)
       .enter().append("rect")
         .attr("class", "bar")
-        .attr("x", function(d) { return x(d.name); })
-        .attr("width", x.bandwidth())
-        .attr("y", function(d) { return y(d.v1*100.0 + d.v2*100.0); })
+        .attr("x", function(d) { return x(d.name) + x.bandwidth()/3; })
+        .attr("width", x.bandwidth()/3)
+        .attr("y", function(d) { return y(d.v2*100.0); })
         .attr("height", function(d) { return height - y(d.v2*100.0); })
         .style('fill', function (d, i) { return colors[1]; } )
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
-        
+      
+    // append the rectangles for the bar chart
     svg.append("g").selectAll(".bar")
         .data(data)
       .enter().append("rect")
         .attr("class", "bar")
-        .attr("x", function(d) { return x(d.name); })
-        .attr("width", x.bandwidth())
-        .attr("y", function(d) { return y(d.v1*100.0 + d.v2*100.0 + d.v3*100.0); })
+        .attr("x", function(d) { return x(d.name) + ((x.bandwidth()/3)*2); })
+        .attr("width", x.bandwidth()/3)
+        .attr("y", function(d) { return y(d.v3*100.0); })
         .attr("height", function(d) { return height - y(d.v3*100.0); })
         .style('fill', function (d, i) { return colors[2]; } )
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
-     
+      
     var range = d3.range(colors.length);
       
     svg.selectAll(".rects")
@@ -215,8 +219,8 @@ function drawStackedBarChart(data) {
       .attr("y", -(margin.top/2))
       .attr("text-anchor", "middle")
       .style("font-size", "20px")
-      .text("Stacked bar chart showing percentages for all responding businesses' trading status with respect to industry");
-
+      .text("Bar chart showing how government schemes have been adpoted by businesses with respect to industry");
+      
 }
 
 function formatName(name) {

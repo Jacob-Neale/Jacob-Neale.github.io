@@ -1,4 +1,4 @@
-function drawVisualisation2(dataFileURL) {
+function drawVisualisation2(dataFileURL, industry_colours) {
     $.ajax({
       type: "GET",
       url: dataFileURL,
@@ -10,7 +10,7 @@ function drawVisualisation2(dataFileURL) {
       }
     });
     formattedData = handleVisualisation2Data(data);
-    drawBubbleChart(formattedData);
+    drawBubbleChart(formattedData, industry_colours);
 }
 
 
@@ -53,10 +53,11 @@ function handleVisualisation2Data(data) {
         }
         formatData.push({x: vars[0], y: vars[1], z: vars[2], name: formatName(key)});
     }
+    formatData.sort(compare);
     return formatData;
 }
 
-function drawBubbleChart(data) {
+function drawBubbleChart(data, industry_colours) {
     
     d3.select("#bubble_chart").selectAll("*").remove();
 
@@ -193,7 +194,7 @@ function drawBubbleChart(data) {
         .attr("cx", function (d) { return x(d.x); } )
         .attr("cy", function (d) { return y(d.y); } )
         .attr("r", function (d) { return z(d.z); } )
-        .style('fill', function (d, i) { return "grey"; } )
+        .style('fill', function (d, i) { return industry_colours[i]; } )
       .on("mouseover", showTooltip )
       .on("mousemove", moveTooltip )
       .on("mouseleave", hideTooltip )
@@ -222,4 +223,14 @@ function formatName(name) {
         }
     }
     return newString;
+}
+
+function compare( a, b ) {
+  if ( a.name < b.name ){
+    return -1;
+  }
+  if ( a.name > b.name ){
+    return 1;
+  }
+  return 0;
 }
